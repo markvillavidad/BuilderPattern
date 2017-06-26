@@ -8,6 +8,11 @@
  *
  * @author vidadm1
  */
-public class test {
+public class Wrapper implements Packing {
+    
+    @Override
+    public String pack(){
+        return "Wrapper";
+    }
     
 }
