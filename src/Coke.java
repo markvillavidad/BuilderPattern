@@ -8,15 +8,18 @@
  *
  * @author vidadm1
  */
-public class VegBurger extends Burger {
+public class Coke  extends ColdDrink{
     
     @Override
     public float price(){
-        return 25.0f;
+        return 30.0f;
     }
     
-    @Override
-    public String name(){
-        return "Veg Burger";
+    @Override 
+        public String name(){
+        return "Coke";
     }
+    
+    
+    
 }
